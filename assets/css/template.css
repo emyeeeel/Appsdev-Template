@@ -1,0 +1,145 @@
+/* common */
+.hr-spacer {
+    height: 1px;
+    margin-top: 30px;
+}
+.slick-track {
+    display: flex;
+    align-items: end;
+}
+/* Header */
+.sld-bx {
+    border-radius: 20px;
+    display: flex !important;
+    align-items: end;
+    width: 560px; 
+    height: 636px
+}
+.sld-img {
+    margin: auto;
+}
+.sld-bx.sld-1 > img {
+    max-width: 200px; 
+    margin: 50px auto;
+}
+.sld-bx.sld-3 {
+    /* padding-bottom: 50px; */
+}
+.sld-bx.sld-3 .sld-img {
+   max-width: 55%;
+}
+.bnr-list {
+    display: flex;
+    flex-direction: row;
+    flex: 50%;
+    flex-wrap: wrap;
+    align-items: center;
+}
+/* Ingredients */
+.s1-list li > img {
+    width: 215px;
+    height: auto;
+}
+/* Section Info */
+.s2-img {
+    width: 603px;
+    height: auto;
+}
+ul.s2-list li p {
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Section Info 2 */
+.section3 .qut {
+    width: 38px; 
+    height: auto;
+}
+.section3 .s3-t-img {
+    width: 77px;
+    height: auto;
+}
+.section3 .s3-img {
+    width: 300px; 
+    height: auto;
+}
+.section3 .s3-icon {
+    width: 65px;
+    height: auto;
+}
+/* HOWTO */
+.s3-list2 p, .s3-list3 p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+/* REVIEWS */
+.section4 .t-nm {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.section4 .t-nm img {
+    margin-right: 0;
+}
+/* BOTTLE INFO */
+.section5 .comn-txt {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+@media screen and (max-width: 1200px) {
+    .s2-img {
+        width: 517px;
+        height: auto;
+    }
+}
+@media screen and (max-width: 1021px) {
+    .s2-img {
+        width: 50%;
+    }
+
+    .sld-bx.sld-1 > img {
+        max-width: 50%;
+    }
+}
+@media screen and (max-width: 767px) {
+    .s2-img {
+        width: 375px;
+    }
+    .section3 .s3-t-img {
+        width: 63px;
+    }
+    .section5 .comn-txt {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+@media screen and (max-width: 499px) {
+    /* .bnr-list {
+        flex-direction: column;
+    }
+    ul.bnr-list li {
+        width: 100%;
+        float: unset; 
+        text-align: left;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-left: 20px;
+    } */
+    .sld-bx {
+        height: 436px;
+    }
+    .sld-img {
+        margin: auto;
+    }
+    .sld-bx.sld-1 > img {
+        max-width: 32%;
+    }
+    .sld-bx.sld-3 .sld-img {
+        max-width: 55%;
+    }
+    ul.s2-list li p {
+        max-width: 90%;
+    }
+}
